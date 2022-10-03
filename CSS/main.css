@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#con{
+    height: 1010px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#circle{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-image: linear-gradient(#f67590, #72efe9);
+    /* position: relative; */
+    margin: 50px 0px 0px 200px;
+
+}
+img{
+    width: 262px;
+    height: 288px;
+    border-radius: 20px;
+    margin: -86px 58px 0px 20px;
+    object-fit: cover;
+    object-position: 100% 50%;
+
+    
+}
+#txtBlock{
+    height: 587px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    position: relative;
+    padding: 30px 20px;
+    background-color: white;
+    /* border: 1px solid black; */
+    margin-top: -40px;
+    margin-left: 40px;
+}
+h1{
+    color: rgb(242, 61, 99);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 700;
+
+}
+#txtBlock p{
+    color: rgb(17, 17, 17);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 300;
+}
+#txtBlock p a{
+    color: #111111;
+    text-decoration: none;
+    border-bottom: 1px solid #111111;
+}
+#txtBlock p a:hover{
+   border-bottom: 1px solid rgb(242, 61, 99);
+}
+#button a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 29px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(242, 61, 99);
+    border-radius: 50px;
+    padding: 14px 60px 15px 59px;
+}
+
+#f1 p {
+    width: auto;
+    background-color: #333333;
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    padding: 50px
+}
+#f2 p{
+    width: auto;
+    background-color: #333333;
+    color: white;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 21px;
+    padding: 50px;
+}
+#f2 p a{
+    color: rgb(194, 181, 251);
+}
+#f2 p a:hover{
+    text-decoration: none;
+    color: rgb(144, 144, 144);
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) {
+    #con{
+        height: 968px;
+    }
+    #circle{
+        width: 198px;
+        height: 198px;
+        margin: 50px 0 0 342px;
+        
+    }
+    img{
+        width: 424px;
+        height: 400px;
+        margin: -130px 50px 0px;
+    }
+    #txtBlock{
+        width: 374px;
+        height: 537px;
+        margin-top: -144px;
+        margin-left: -210px;
+        align-items: flex-start;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #con{
+        height: 1021px;
+    }
+    #circle{
+        width: 259px;
+        height: 259px;
+        margin: 76px 0 0 461px;
+        
+    }
+    img{
+        width: 530px;
+        height: 454px;
+        margin: -161px 95px 0px;
+    }
+    #txtBlock{
+        width: 374px;
+        height: 537px;
+        margin-top: -225px;
+        margin-left: -385px;
+        align-items: flex-start;
+    }  
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #con{
+        height: 988px;
+    }
+    #circle{
+        width: 297px;
+        height: 297px;
+        margin: 60px 0 0 643px;
+        
+    }
+    img{
+        width: 697px;
+        height: 533px;
+        margin: -174px 114px 0px 129px;
+    }
+    #txtBlock{
+        width: 423px;
+        height: 517px;
+        margin-top: -345px;
+        margin-left: -555px;
+        align-items: flex-start;
+    } 
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #con{
+        height: 941px;
+    }
+    #circle{
+       
+        margin: 77px 0 0 843px;
+        
+    }
+    img{
+        width: 851px;
+        height: 535px;
+        margin: -174px 114px 0px 211px;
+    }
+    #txtBlock{
+        width: 485px;
+        height: 486px;
+        margin-top: -355px;
+        margin-left: -705px;
+        align-items: flex-start;
+    } 
+}
